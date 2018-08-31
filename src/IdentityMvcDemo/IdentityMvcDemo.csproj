@@ -156,6 +156,7 @@
     <Compile Include="Models\IoC\MyServiceLocator.cs" />
     <Compile Include="Models\LoginViewModel.cs" />
     <Compile Include="Models\MyIdentity\MyIdentityStore.cs" />
+    <Compile Include="Models\MyIdentity\MyUserManager.cs" />
     <Compile Include="Models\MySignIn\MySignInManager.cs">
       <SubType>Code</SubType>
     </Compile>
