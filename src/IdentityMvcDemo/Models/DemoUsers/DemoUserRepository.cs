@@ -11,8 +11,9 @@ namespace IdentityMvcDemo.Models.DemoUsers
         static DemoUserRepository()
         {
             var passwordHasher = PasswordHasherHelper.PasswordHasher();
-            Users.Add(new DemoUser() { Id = Guid.NewGuid(), UserName = "John", PasswordHash = passwordHasher.HashPassword("111111") });
-            Users.Add(new DemoUser() { Id = Guid.NewGuid(), UserName = "Scott", PasswordHash = passwordHasher.HashPassword("222222") });
+            Users.Add(new DemoUser() { Id = Guid.NewGuid(), UserName = "admin", PasswordHash = passwordHasher.HashPassword("111") });
+            Users.Add(new DemoUser() { Id = Guid.NewGuid(), UserName = "John", PasswordHash = passwordHasher.HashPassword("111") });
+            Users.Add(new DemoUser() { Id = Guid.NewGuid(), UserName = "Scott", PasswordHash = passwordHasher.HashPassword("111") });
         }
 
         public IEnumerable<DemoUser> Query()

@@ -1,6 +1,11 @@
 #IdentityMvcDemo
 
 simple demo use a memory repository, to show how to extension asp.net identity.
+a simple demo for login validate code gotchas.
+
+## change list
+
+- 20201009 add validate code gotcha
 
 ## codes in Models folder:
 
